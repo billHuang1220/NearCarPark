@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-CarPark.Services-422dd47d-a70e-4a56-ae7f-06c6f3d936db</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crawler\CarPark.Crawler.csproj" />
+    <ProjectReference Include="..\DataModel\CarPark.DataModel.csproj" />
+    <ProjectReference Include="..\DbWorker\CarPark.DbWorker.csproj" />
+  </ItemGroup>
+</Project>

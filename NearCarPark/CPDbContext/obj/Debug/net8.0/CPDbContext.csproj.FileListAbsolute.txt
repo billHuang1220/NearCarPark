@@ -1,0 +1,14 @@
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\bin\Debug\net8.0\CPDbContext.deps.json
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\bin\Debug\net8.0\CPDbContext.dll
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\bin\Debug\net8.0\CPDbContext.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.AssemblyInfoInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.AssemblyInfo.cs
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.csproj.CoreCompileInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.dll
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\refint\CPDbContext.dll
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\ref\CPDbContext.dll
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\bin\Debug\net8.0\CPDbContext.runtimeconfig.json
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.csproj.AssemblyReference.cache
+C:\Users\kai.kei\source\repos\NearCarPark\CPDbContext\obj\Debug\net8.0\CPDbContext.genruntimeconfig.cache

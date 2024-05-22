@@ -1,0 +1,15 @@
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.csproj.AssemblyReference.cache
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.AssemblyInfoInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.AssemblyInfo.cs
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.csproj.CoreCompileInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\bin\Debug\net8.0\CarPark.Crawler.deps.json
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\bin\Debug\net8.0\CarPark.Crawler.dll
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\bin\Debug\net8.0\CarPark.Crawler.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\bin\Debug\net8.0\CarPark.DataModel.dll
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\bin\Debug\net8.0\CarPark.DataModel.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark..0BF3644F.Up2Date
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.dll
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\refint\CarPark.Crawler.dll
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\CarPark.Crawler.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\Crawler\obj\Debug\net8.0\ref\CarPark.Crawler.dll

@@ -1,0 +1,11 @@
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\bin\Debug\net8.0\DataModel.deps.json
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\bin\Debug\net8.0\DataModel.dll
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\bin\Debug\net8.0\DataModel.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.AssemblyInfoInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.AssemblyInfo.cs
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.dll
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\refint\DataModel.dll
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\DataModel.pdb
+C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\ref\DataModel.dll
