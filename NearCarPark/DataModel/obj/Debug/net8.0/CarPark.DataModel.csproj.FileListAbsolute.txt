@@ -9,3 +9,15 @@ C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.Dat
 C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\refint\CarPark.DataModel.dll
 C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.pdb
 C:\Users\kai.kei\source\repos\NearCarPark\DataModel\obj\Debug\net8.0\ref\CarPark.DataModel.dll
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\bin\Debug\net8.0\CarPark.DataModel.deps.json
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\bin\Debug\net8.0\CarPark.DataModel.dll
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\bin\Debug\net8.0\CarPark.DataModel.pdb
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.AssemblyInfoInputs.cache
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.AssemblyInfo.cs
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.csproj.CoreCompileInputs.cache
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.sourcelink.json
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.dll
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\refint\CarPark.DataModel.dll
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\CarPark.DataModel.pdb
+C:\Users\kai.kei\source\repos\CarParkNearMe\NearCarPark\DataModel\obj\Debug\net8.0\ref\CarPark.DataModel.dll

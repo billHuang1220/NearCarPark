@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarPark.DataModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+551eb7b5469ecc009f725ae5038d5508d5e75148")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarPark.DataModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarPark.DataModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

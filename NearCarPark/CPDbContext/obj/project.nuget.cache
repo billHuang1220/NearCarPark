@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KPnWQ54Vl6gxdm5BZ1Y51RGc/Ml4E1j6iWvippTyObWG902HqhaJwfspu6+eoWinrEiAMjr1nNilo/t59cYK3A==",
+  "dgSpecHash": "GIFdTmhTEkdkMDXwXY7WVfWEOZBsliyNre5K3E3UB2p+hzVRbCeeRbxucobBOkAEK3be/EBVAwOc6SjXX0BU2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
+  "projectFilePath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kai.kei\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -22,10 +22,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="MiniExcel" Version="1.32.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CarPark.Services\CarPark.Services.csproj" />
+    <ProjectReference Include="..\CarParkAnalystWebAPI\CarParkWebAPI.csproj" />
     <ProjectReference Include="..\Crawler\CarPark.Crawler.csproj" />
     <ProjectReference Include="..\DataModel\CarPark.DataModel.csproj" />
     <ProjectReference Include="..\DbWorker\CarPark.DbWorker.csproj" />

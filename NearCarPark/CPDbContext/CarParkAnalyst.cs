@@ -5,7 +5,7 @@ namespace CarPark.DatabaseContext;
 
 public partial class CarParkAnalyst
 {
-    public int? TimeIndex { get; set; }
+    public string TimeIndex { get; set; } = null!;
 
     public int? Car6001 { get; set; }
 

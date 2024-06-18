@@ -5,7 +5,7 @@ namespace CarPark.DatabaseContext;
 
 public partial class CarParkInfoDetail
 {
-    public int CpId { get; set; }
+    public string CpId { get; set; }
 
     public string? NameC { get; set; }
 
@@ -21,9 +21,9 @@ public partial class CarParkInfoDetail
 
     public string? CarParkEntryP { get; set; }
 
-    public double? XCoords { get; set; }
+    public double XCoords { get; set; }
 
-    public double? YCoords { get; set; }
+    public double YCoords { get; set; }
 
     public string? Height { get; set; }
 

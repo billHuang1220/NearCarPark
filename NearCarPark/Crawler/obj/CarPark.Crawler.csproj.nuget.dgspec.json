@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {}
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
         "projectName": "CarPark.Crawler",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
         "projectName": "CarPark.DataModel",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,6 +128,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Analyzer": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

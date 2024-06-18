@@ -5,15 +5,17 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NearCarPark", "NearCarPark\NearCarPark.csproj", "{8DDF40BE-FE17-4587-AF03-8EE475A8403F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.DatabaseContext", "CPDbContext\CarPark.DatabaseContext.csproj", "{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.DatabaseContext", "CPDbContext\CarPark.DatabaseContext.csproj", "{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Crawler", "Crawler\CarPark.Crawler.csproj", "{9FA6634D-B401-4800-9FDB-91AF0C32D71C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Crawler", "Crawler\CarPark.Crawler.csproj", "{9FA6634D-B401-4800-9FDB-91AF0C32D71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.DataModel", "DataModel\CarPark.DataModel.csproj", "{A5A63E18-B082-4112-98CA-F8588FFB85B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.DataModel", "DataModel\CarPark.DataModel.csproj", "{A5A63E18-B082-4112-98CA-F8588FFB85B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.DbWorker", "DbWorker\CarPark.DbWorker.csproj", "{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.DbWorker", "DbWorker\CarPark.DbWorker.csproj", "{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Services", "CarPark.Services\CarPark.Services.csproj", "{CD86BD59-372F-4268-9D43-438F10C78F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Services", "CarPark.Services\CarPark.Services.csproj", "{CD86BD59-372F-4268-9D43-438F10C78F18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarParkWebAPI", "CarParkAnalystWebAPI\CarParkWebAPI.csproj", "{044D17F1-47E2-4066-9D81-BCD7A90AF67F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CD86BD59-372F-4268-9D43-438F10C78F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD86BD59-372F-4268-9D43-438F10C78F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD86BD59-372F-4268-9D43-438F10C78F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044D17F1-47E2-4066-9D81-BCD7A90AF67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044D17F1-47E2-4066-9D81-BCD7A90AF67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044D17F1-47E2-4066-9D81-BCD7A90AF67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044D17F1-47E2-4066-9D81-BCD7A90AF67F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

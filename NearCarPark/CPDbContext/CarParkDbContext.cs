@@ -29,10 +29,13 @@ public partial class CarParkDbContext : DbContext
     {
         modelBuilder.Entity<CarParkAnalyst>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("CarParkAnalyst");
+            entity.HasKey(e => e.TimeIndex).HasName("PK__CarParkA__460F77676407F589");
 
+            entity.ToTable("CarParkAnalyst");
+
+            entity.Property(e => e.TimeIndex)
+                .HasMaxLength(50)
+                .HasColumnName("Time_Index");
             entity.Property(e => e.Car6001).HasColumnName("Car_6001");
             entity.Property(e => e.Car6002).HasColumnName("Car_6002");
             entity.Property(e => e.Car6003).HasColumnName("Car_6003");
@@ -177,7 +180,6 @@ public partial class CarParkDbContext : DbContext
             entity.Property(e => e.Mb7078).HasColumnName("MB_7078");
             entity.Property(e => e.Mb7079).HasColumnName("MB_7079");
             entity.Property(e => e.Mb7081).HasColumnName("MB_7081");
-            entity.Property(e => e.TimeIndex).HasColumnName("Time_Index");
         });
 
         modelBuilder.Entity<CarParkInfoDetail>(entity =>

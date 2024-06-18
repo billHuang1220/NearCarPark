@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\NearCarPark\\NearCarPark.csproj": {}
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\NearCarPark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj",
         "projectName": "CarPark.Services",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj"
               }
             }
           }
@@ -85,14 +85,98 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\CarParkWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
-        "projectName": "CarPark.DatabaseContext",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\CarParkWebAPI.csproj",
+        "projectName": "CarParkWebAPI",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\CarParkWebAPI.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kai.kei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj"
+              },
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              },
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
+        "projectName": "CarPark.DatabaseContext",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj",
+        "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,14 +268,14 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
         "projectName": "CarPark.Crawler",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -213,8 +297,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
               }
             }
           }
@@ -263,14 +347,14 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
         "projectName": "CarPark.DataModel",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -308,6 +392,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Analyzer": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -328,14 +434,14 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj",
         "projectName": "CarPark.DbWorker",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -357,11 +463,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarPark.DatabaseContext.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj"
+              },
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
               }
             }
           }
@@ -380,6 +489,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Analyzer": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -400,14 +531,14 @@
         }
       }
     },
-    "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\NearCarPark\\NearCarPark.csproj": {
+    "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\NearCarPark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\NearCarPark\\NearCarPark.csproj",
+        "projectUniqueName": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\NearCarPark.csproj",
         "projectName": "NearCarPark",
-        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\NearCarPark\\NearCarPark.csproj",
+        "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\NearCarPark.csproj",
         "packagesPath": "C:\\Users\\kai.kei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\NearCarPark\\obj\\",
+        "outputPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -429,17 +560,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\CarPark.Services.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\Crawler\\CarPark.Crawler.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\CarParkWebAPI.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\CarParkWebAPI.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\CarPark.Crawler.csproj"
               },
-              "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
-                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj"
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarPark.DataModel.csproj"
+              },
+              "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj": {
+                "projectPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarPark.DbWorker.csproj"
               }
             }
           }
@@ -494,6 +628,10 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.32.1, )"
             }
           },
           "imports": [
