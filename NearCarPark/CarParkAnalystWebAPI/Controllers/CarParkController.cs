@@ -142,7 +142,7 @@ namespace CarParkWebAPI.Controllers
 
 
         [HttpPut("DeleteLocation")]
-        public async Task<IActionResult> DeleteLocation(String id)
+        public async Task<IActionResult> DeleteLocation(string id)
         {
             try
             {

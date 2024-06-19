@@ -99,13 +99,29 @@ namespace CarPark.DbWorker
         {
             var locationMongoObj = locations.Select(x => x.ToMongoDbObj()).ToList();
 
-            var temp = locationMongoObj.Select(x => x.nameCN).Distinct().ToList();
 
-            var duplicateNameCn = await _locationCollection.Find(l => temp.Contains(l.nameCN)).ToListAsync();
-            var duplicateNameEn = await _locationCollection.Find(l => temp.Contains(l.namePT)).ToListAsync();
+            var filterBuilder = Builders<LocationInfoMongo>.Filter;
+            var filter1 = filterBuilder.Where(x => locationMongoObj.Select(y => y.nameCN).Contains(x.nameCN));
+            var filter2 = filterBuilder.Where(x => locationMongoObj.Select(y => y.namePT).Contains(x.namePT));
 
-            if (duplicateNameCn.Any()|| duplicateNameEn.Any())
-                throw new Exception("Location duplicated");
+            var duplicate =await _locationCollection.Find(filter1 | filter2).ToListAsync();
+
+
+            if (duplicate.Any() )
+            {
+                var temp = locations.Where(x => 
+                    (duplicate.Select(y => y.nameCN).Contains(x.nameCN)) ||
+                    (duplicate.Select(y=>y.namePT).Contains(x.nameEN))).ToList();
+                string result = string.Join(Environment.NewLine, temp.Select((x,row) => new
+                {
+                    row,
+                    x.nameCN,
+                    x.nameEN
+                }));
+                throw new Exception("Location duplicated at: " + result);
+
+            }
+
 
             await _locationCollection.InsertManyAsync(locationMongoObj);
 

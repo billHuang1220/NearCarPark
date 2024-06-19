@@ -150,5 +150,8 @@ namespace CarPark.DataModel
         public double lng { get; set; }
         [BsonElement("isDeleted")]
         public bool isDeleted { get; set; }
+
     }
+
+
 }

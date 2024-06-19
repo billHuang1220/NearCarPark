@@ -16,13 +16,15 @@ var s = builder.Configuration.GetSection("MSSQL:ConnectionStrings").Value;
 builder.Services.AddDbContext<CarParkDbContext>(options => options.UseSqlServer(s));
 builder.Services.AddTransient<CarApiCrawler>();
 
-// builder.Services.AddTransient<IDbWorker, CarParkDbWorker>();
-builder.Services.AddTransient<IDbWorker, CarParkMongoDbWorker>();
 /*
+ builder.Services.AddTransient<IDbWorker, CarParkDbWorker>();
 var s = builder.Configuration.GetConnectionString("MSSQL");
 builder.Services.AddDbContext<CarParkDbContext>(options => options.UseSqlServer(s));
 */
-builder.Services.AddSingleton<IMongoClient, MongoClient>(sp =>
+
+builder.Services.AddSingleton<IDbWorker, CarParkMongoDbWorker>();
+
+builder.Services.AddTransient<IMongoClient, MongoClient>(sp =>
     new MongoClient(builder.Configuration.GetConnectionString("MongoDb")));
 
 var app = builder.Build();

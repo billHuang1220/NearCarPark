@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{044D17F1-47E2-4066-9D81-BCD7A90AF67F}|CarParkAnalystWebAPI\\CarParkWebAPI.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\carparkanalystwebapi\\controllers\\carparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{044D17F1-47E2-4066-9D81-BCD7A90AF67F}|CarParkAnalystWebAPI\\CarParkWebAPI.csproj|solutionrelative:carparkanalystwebapi\\controllers\\carparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\carparkinfoextentsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\carparkinfoextentsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\carparkmongodbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\carparkmongodbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\carparkdbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\carparkdbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\locationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\locationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\datamodel\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|solutionrelative:datamodel\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{044D17F1-47E2-4066-9D81-BCD7A90AF67F}|CarParkAnalystWebAPI\\CarParkWebAPI.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\carparkanalystwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,12 +15,36 @@
       "RelativeMoniker": "D:0:0:{9FA6634D-B401-4800-9FDB-91AF0C32D71C}|Crawler\\CarPark.Crawler.csproj|solutionrelative:crawler\\crawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}|CPDbContext\\CarPark.DatabaseContext.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\cpdbcontext\\carparkinfodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}|CPDbContext\\CarPark.DatabaseContext.csproj|solutionrelative:cpdbcontext\\carparkinfodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD86BD59-372F-4268-9D43-438F10C78F18}|CarPark.Services\\CarPark.Services.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\carpark.services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD86BD59-372F-4268-9D43-438F10C78F18}|CarPark.Services\\CarPark.Services.csproj|solutionrelative:carpark.services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{044D17F1-47E2-4066-9D81-BCD7A90AF67F}|CarParkAnalystWebAPI\\CarParkWebAPI.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\carparkanalystwebapi\\controllers\\carparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{044D17F1-47E2-4066-9D81-BCD7A90AF67F}|CarParkAnalystWebAPI\\CarParkWebAPI.csproj|solutionrelative:carparkanalystwebapi\\controllers\\carparkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\carparkdbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\carparkdbworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\datamodel\\carparkmongodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|solutionrelative:datamodel\\carparkmongodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\carparkinfoextentsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\carparkinfoextentsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\dbworker\\locationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8151CB0-27E6-4D2E-BEA2-35C0CB5DAF76}|DbWorker\\CarPark.DbWorker.csproj|solutionrelative:dbworker\\locationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\datamodel\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A63E18-B082-4112-98CA-F8588FFB85B2}|DataModel\\CarPark.DataModel.csproj|solutionrelative:datamodel\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}|CPDbContext\\CarPark.DatabaseContext.csproj|c:\\users\\kai.kei\\source\\repos\\carparknearme\\nearcarpark\\cpdbcontext\\carparkinfodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BFDC6E-90B4-4B86-A949-0AB0D6CD4E1E}|CPDbContext\\CarPark.DatabaseContext.csproj|solutionrelative:cpdbcontext\\carparkinfodetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CarParkInfoExtentsion.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarParkInfoExtentsion.cs",
               "RelativeDocumentMoniker": "DbWorker\\CarParkInfoExtentsion.cs",
@@ -63,25 +71,37 @@
               "ViewState": "AQIAAAMAAAAAMzMzMzMLwEEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T09:29:13.333Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarParkMongoDto.cs",
+              "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarParkMongoDto.cs",
+              "RelativeDocumentMoniker": "DataModel\\CarParkMongoDto.cs",
+              "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\CarParkMongoDto.cs",
+              "RelativeToolTip": "DataModel\\CarParkMongoDto.cs",
+              "ViewState": "AQIAAI4AAACgMTMzMzMlwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:16:44.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CarParkDbWorker.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarParkDbWorker.cs",
               "RelativeDocumentMoniker": "DbWorker\\CarParkDbWorker.cs",
               "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarParkDbWorker.cs",
               "RelativeToolTip": "DbWorker\\CarParkDbWorker.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAIA3wBcAAAAaAAAA",
+              "ViewState": "AQIAAA8AAABAMzMzMzMowBUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T03:29:16.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "LocationExtension.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\LocationExtension.cs",
               "RelativeDocumentMoniker": "DbWorker\\LocationExtension.cs",
@@ -89,12 +109,11 @@
               "RelativeToolTip": "DbWorker\\LocationExtension.cs",
               "ViewState": "AQIAAAgAAAAAMzMzMzMbwBQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:12:41.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T03:12:41.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LocationDto.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DataModel\\LocationDto.cs",
               "RelativeDocumentMoniker": "DataModel\\LocationDto.cs",
@@ -102,64 +121,63 @@
               "RelativeToolTip": "DataModel\\LocationDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:01:03.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T03:01:03.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CarParkController.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\Controllers\\CarParkController.cs",
               "RelativeDocumentMoniker": "CarParkAnalystWebAPI\\Controllers\\CarParkController.cs",
               "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\Controllers\\CarParkController.cs",
               "RelativeToolTip": "CarParkAnalystWebAPI\\Controllers\\CarParkController.cs",
-              "ViewState": "AQIAAG0AAAAAz8zMzMwswA0AAAA1AAAA",
+              "ViewState": "AQIAAEsAAAAAZmZmZmYwwHMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T09:26:22.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CarParkMongoDbWorker.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarParkMongoDbWorker.cs",
               "RelativeDocumentMoniker": "DbWorker\\CarParkMongoDbWorker.cs",
               "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\DbWorker\\CarParkMongoDbWorker.cs",
               "RelativeToolTip": "DbWorker\\CarParkMongoDbWorker.cs",
-              "ViewState": "AQIAAF0AAACAZWZmZuYwwG8AAAAYAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAHUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T06:22:36.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "CarParkAnalystWebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarParkAnalystWebAPI\\Program.cs",
               "RelativeToolTip": "CarParkAnalystWebAPI\\Program.cs",
-              "ViewState": "AQIAABYAAACAMjMzMzMbwBIAAAA/AAAA",
+              "ViewState": "AQIAAAkAAACwZGZmZmYkwBAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T06:17:56.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Crawler.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\Crawler.cs",
               "RelativeDocumentMoniker": "Crawler\\Crawler.cs",
               "ToolTip": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\Crawler\\Crawler.cs",
               "RelativeToolTip": "Crawler\\Crawler.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAkwCQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T03:10:55.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CarParkInfoDetail.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CPDbContext\\CarParkInfoDetail.cs",
               "RelativeDocumentMoniker": "CPDbContext\\CarParkInfoDetail.cs",
@@ -171,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\CarPark.Services\\Worker.cs",
               "RelativeDocumentMoniker": "CarPark.Services\\Worker.cs",
@@ -179,7 +197,8 @@
               "RelativeToolTip": "CarPark.Services\\Worker.cs",
               "ViewState": "AQIAABQAAAAgxszMzMz8vx4AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:35:40.414Z"
+              "WhenOpened": "2024-06-03T08:35:40.414Z",
+              "EditorCaption": ""
             }
           ]
         }

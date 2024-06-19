@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarPark.Crawler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+551eb7b5469ecc009f725ae5038d5508d5e75148")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2efb1e3a851b8e56ae9f48a44278aa20b60fb8ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarPark.Crawler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarPark.Crawler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
