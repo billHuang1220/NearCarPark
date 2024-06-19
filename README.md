@@ -19,13 +19,13 @@ This project is aim to use car park data from Macau open data platform to help u
 
 ## Usage
 
-1. User can select type of their vehicle from car or motorcycle and find the available carparks near.
+1. On this page, users can select the type of vehicle they have, either a car or a motorcycle, and find the available car parks nearby.
 ![Find near Carpark](img/NearCarPark.png)
 
-2. In this page user can check the analyst carpark data to better plan their trip.
+2. In this page user can access car park analysis data, which assists them in planning their trips effectively. They can view a list of available car parks and make informed decisions based on the analysis provided.
 ![Carpark list](img/list.png)
 
-Here user can find the available slot for each time interval.
+Here provides information about the availability of parking slots during different time intervals. Users can check the availability of slots and plan their visits accordingly.
 ![Carpark analyst](img/anaylst.png)
 
 3. In this page use can add location in routing map and click the marker button to check available carpark near that location.
