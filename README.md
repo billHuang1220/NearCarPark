@@ -23,18 +23,18 @@ This project is aim to use car park data from Macau open data platform to help u
 ![Find near Carpark](img/NearCarPark.png)
 
 2. In this page user can check the analyst carpark data to better plan their trip.
-![Carpark list](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/list.png?token=GHSAT0AAAAAACSUBTS74LKM5LML2QMCVYKWZTSQCWA)
+![Carpark list](img/list.png)
 
 Here user can find the available slot for each time interval.
-![Carpark analyst](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/anaylst.png?token=GHSAT0AAAAAACSUBTS7KKGMKELMSIRIUQGSZTSK4UA)
+![Carpark analyst](img/anaylst.png)
 
 3. In this page use can add location in routing map and click the marker button to check available carpark near that location.
-![Routing map](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/routing.png?token=GHSAT0AAAAAACSUBTS7IB7ZGDKP47XNFB7QZTSK5AA)
+![Routing map](img/routing.png)
 
 # Location Management 
 - Following two page is for manage locations for routing map.
 4.  Here can Insert, update and delete location.
-![CRUD location](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/CRUDSingle.png?token=GHSAT0AAAAAACSUBTS6WETMPB57HQXCYC32ZTSKYLA)
+![CRUD location](img/CRUDSingle.png)
 
 5. This page is for upload .csv file to perform bulk insert, update, delete.
-![Upload location](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/upload.png?token=GHSAT0AAAAAACSUBTS6CRHNXWKZ6BK4EBGQZTSK5RA)
+![Upload location](img/upload.png)
