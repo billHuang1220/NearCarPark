@@ -20,7 +20,7 @@ This project is aim to use car park data from Macau open data platform to help u
 ## Usage
 
 1. User can select type of their vehicle from car or motorcycle and find the available carparks near.
-![Find near Carpark](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/NearCarPark.png?token=GHSAT0AAAAAACSUBTS7QDKRQVK2TUB5KADEZTSK4HQ)
+![Find near Carpark](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/NearCarPark.png?raw=true)
 
 2. In this page user can check the analyst carpark data to better plan their trip.
 ![Carpark list](https://raw.githubusercontent.com/billy0204/NearCarPark/master/img/list.png?token=GHSAT0AAAAAACSUBTS74LKM5LML2QMCVYKWZTSQCWA)
