@@ -3,7 +3,8 @@ using CarPark.Crawler;
 using CarPark.DataModel;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using static System.Net.Mime.MediaTypeNames;
+
+
 
 namespace CarPark.DbWorker
 {
@@ -58,9 +59,9 @@ namespace CarPark.DbWorker
             }
         }
 
-        public async Task<List<object>> FindAutoFillListAsync(string prefix)
+        public async Task<List<LocationDto>> FindAutoFillListAsync(string prefix)
         {
-            var autoCompleteList = new List<object>();
+            var autoCompleteList = new List<LocationDto>();
 
             var isCN =  prefix.Any(c =>char.GetUnicodeCategory(c) == UnicodeCategory.OtherLetter);
             var filter = Builders<LocationInfoMongo>.Filter.And(
@@ -79,13 +80,12 @@ namespace CarPark.DbWorker
                     var batch = cursor.Current;
                     foreach (var document in batch)
                     {
-                        var locInfo = new
+                        var locInfo = new LocationDto()
                         {
                             nameCN = document.nameCN,
-                            namePT = document.namePT,
+                            nameEN = document.namePT,
                             lat = document.lat,
                             lng = document.lng,
-                            id = document._id.ToString()
                         };
                         autoCompleteList.Add(locInfo);
                     }
@@ -103,8 +103,9 @@ namespace CarPark.DbWorker
             var filterBuilder = Builders<LocationInfoMongo>.Filter;
             var filter1 = filterBuilder.Where(x => locationMongoObj.Select(y => y.nameCN).Contains(x.nameCN));
             var filter2 = filterBuilder.Where(x => locationMongoObj.Select(y => y.namePT).Contains(x.namePT));
+            var filter3 = filterBuilder.Where(x => !x.isDeleted);
 
-            var duplicate =await _locationCollection.Find(filter1 | filter2).ToListAsync();
+            var duplicate =await _locationCollection.Find((filter1 | filter2)& filter3).ToListAsync();
 
 
             if (duplicate.Any() )
@@ -118,7 +119,7 @@ namespace CarPark.DbWorker
                     x.nameCN,
                     x.nameEN
                 }));
-                throw new Exception("Location duplicated at: " + result);
+                throw new Exception("Location duplicated at: \n" + result);
 
             }
 
@@ -143,6 +144,21 @@ namespace CarPark.DbWorker
             var result = await _locationCollection.ReplaceOneAsync(x => x._id.ToString() == id, locInfo);
 
             return result.ModifiedCount > 0;
+        }
+
+        public async Task<List<LocationDto>> GetAllLocations()
+        {
+            var result = await _locationCollection.AsQueryable()
+                .ToListAsync();
+
+            var locations = result.Select(x => new LocationDto
+            {
+                nameCN = x.nameCN,
+                nameEN = x.namePT, 
+                lat = x.lat,
+                lng = x.lng,
+            }).ToList();
+            return locations;
         }
 
 
@@ -174,7 +190,7 @@ namespace CarPark.DbWorker
             {
                 timeIndex = obj.TimeIndex.ToTimeIndexString().Substring(4),
                 count = obj.CarCnt
-            }).ToList();
+            }).OrderBy(x=>x.timeIndex).ToList();
 
             return result;
         }

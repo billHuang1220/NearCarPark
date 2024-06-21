@@ -1,6 +1,8 @@
 using CarPark.Crawler;
 using CarPark.DatabaseContext;
 using CarPark.DbWorker;
+using Csv;
+using CsvHelper;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 
@@ -23,6 +25,9 @@ builder.Services.AddDbContext<CarParkDbContext>(options => options.UseSqlServer(
 */
 
 builder.Services.AddSingleton<IDbWorker, CarParkMongoDbWorker>();
+
+
+IFactory csvFactory = new Factory(); // This is injected.
 
 builder.Services.AddTransient<IMongoClient, MongoClient>(sp =>
     new MongoClient(builder.Configuration.GetConnectionString("MongoDb")));

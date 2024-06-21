@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CarPark.DatabaseContext;
 using CarPark.DbWorker;
-using Microsoft.EntityFrameworkCore;
 using CarPark.DataModel;
-using MongoDB.Bson;
+using CsvHelper;
+using System.IO;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Globalization;
 
 namespace CarParkWebAPI.Controllers
 {
-    public class CarParkWebController(ILogger<CarParkWebController> _logger,IDbWorker _dbWorker) : Controller
+    public class CarParkWebController(ILogger<CarParkWebController> _logger, IDbWorker _dbWorker) : Controller
     {
 
         [HttpGet("GetCarParkList")]
@@ -25,8 +26,8 @@ namespace CarParkWebAPI.Controllers
             }
         }
 
-        [HttpGet( "GetCarSlotAnalyst")]
-        public async Task<IActionResult> GetCarSlotAnalyst(string date,string cpID)
+        [HttpGet("GetCarSlotAnalyst")]
+        public async Task<IActionResult> GetCarSlotAnalyst(string date, string cpID)
         {
 
             try
@@ -36,10 +37,10 @@ namespace CarParkWebAPI.Controllers
             }
             catch (Exception e)
             {
-                _logger.LogError(e,e.Message);
+                _logger.LogError(e, e.Message);
                 return Ok(e.Message);
             }
-  
+
         }
 
         [HttpGet("GetMbSlotAnalyst")]
@@ -72,7 +73,7 @@ namespace CarParkWebAPI.Controllers
                 _logger.LogError(e, e.Message);
                 return Ok(e.Message);
             }
-         
+
         }
 
         [HttpGet("GetMbNearestCarPark")]
@@ -121,7 +122,7 @@ namespace CarParkWebAPI.Controllers
                 Console.WriteLine(e);
                 return Ok(e.Message);
             }
-            
+
         }
 
         [HttpGet("AutoComplete")]
@@ -157,11 +158,11 @@ namespace CarParkWebAPI.Controllers
         }
 
         [HttpPut("UpdateLocation")]
-        public async Task<IActionResult> UpdateLocation(LocationDto location,string id)
+        public async Task<IActionResult> UpdateLocation(LocationDto location, string id)
         {
             try
             {
-                var result = await _dbWorker.UpdateLocationAsync(location,id);
+                var result = await _dbWorker.UpdateLocationAsync(location, id);
                 return Ok(result);
             }
             catch (Exception e)
@@ -170,5 +171,25 @@ namespace CarParkWebAPI.Controllers
                 return Ok(e.Message);
             }
         }
+
+        [HttpGet("GetAllLocations")]
+        [Produces("text/csv")]
+        public async Task<IActionResult> GetAllLocations()
+        {
+            var result = await _dbWorker.GetAllLocations();
+
+            using var memoryStream = new MemoryStream();
+            await using var streamWriter = new StreamWriter(memoryStream) ;
+            await using var csvWriter = new CsvWriter(streamWriter, CultureInfo.InvariantCulture) ;
+            await csvWriter.WriteRecordsAsync(result);
+            
+
+            return File(memoryStream.ToArray(), "text/csv", $"Export-{DateTime.Now.ToString("s")}.csv");
+        }
+
+
     }
+
+
+
 }

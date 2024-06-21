@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S2znC0yLtr15omUI1wLtK7wHOQAc7UJHbHyXt77ESsANMyaByteB7rYLVYFHCyw31JOUAqgKAoDMT5Xv06WJow==",
+  "dgSpecHash": "AIv0fr6RhPz0mCblzxanQXeMASRVcGPmi7hjmx9N//SFKZBKi0EQGWNgDMPF563BmX0B8AyAj+g7P+nTs6JmpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kai.kei\\source\\repos\\CarParkNearMe\\NearCarPark\\NearCarPark\\NearCarPark.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\kai.kei\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\kai.kei\\.nuget\\packages\\csv\\2.0.93\\csv.2.0.93.nupkg.sha512",
+    "C:\\Users\\kai.kei\\.nuget\\packages\\csvhelper\\33.0.0\\csvhelper.33.0.0.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
     "C:\\Users\\kai.kei\\.nuget\\packages\\flurl.http\\4.0.2\\flurl.http.4.0.2.nupkg.sha512",

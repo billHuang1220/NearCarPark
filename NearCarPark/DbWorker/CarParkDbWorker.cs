@@ -18,10 +18,12 @@ namespace CarPark.DbWorker
         public Task<bool> SaveToDbAsync(List<CarParkInfoRealtimeDto> carParks);
         public Task<bool> SaveToDetailDbAsync(List<CarParkDetailDto> carParks);
         public Task<bool> UpdateToDbAsync(List<CarParkInfoRealtimeDto> carParks);
-        public Task<List<object>> FindAutoFillListAsync(string prefix);
+        public Task<List<LocationDto>> FindAutoFillListAsync(string prefix);
         public Task<bool> InsertToLocationAsync(List<LocationDto> location);
         public Task<bool> DeleteLocationAsync(string id);
         public Task<bool> UpdateLocationAsync(LocationDto location, string id);
+
+        public Task<List<LocationDto>> GetAllLocations();
 
     }
 
@@ -39,7 +41,7 @@ namespace CarPark.DbWorker
             return result == carParks.Count;
         }
 
-        public Task<List<object>> FindAutoFillListAsync(string prefix)
+        public Task<List<LocationDto>> FindAutoFillListAsync(string prefix)
         {
             throw new NotImplementedException();
         }
@@ -55,6 +57,11 @@ namespace CarPark.DbWorker
         }
 
         public Task<bool> UpdateLocationAsync(LocationDto location, string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<LocationDto>> GetAllLocations()
         {
             throw new NotImplementedException();
         }
